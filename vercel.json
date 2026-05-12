@@ -1,5 +1,25 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "src/main.ts",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/public/(.*)",
+      "dest": "public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "src/main.ts"
+    }
+  ],
   "env": {
     "TELEGRAM_BOT_TOKEN": "8563137305:AAFDlk8IkALJZmlVzDnatT39C4fYitspiKA",
     "BOT_ADMIN_CHAT_ID": "633678383"
