@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/webhook.ts": {
-      "maxDuration": 10,
-      "memory": 512
-    }
-  },
   "env": {
     "TELEGRAM_BOT_TOKEN": "8563137305:AAFDlk8IkALJZmlVzDnatT39C4fYitspiKA",
     "BOT_ADMIN_CHAT_ID": "633678383"
