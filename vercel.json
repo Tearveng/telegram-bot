@@ -7,6 +7,7 @@
     }
   },
   "env": {
-    "TELEGRAM_BOT_TOKEN": "@telegram-bot-token"
+    "TELEGRAM_BOT_TOKEN": "8563137305:AAFDlk8IkALJZmlVzDnatT39C4fYitspiKA",
+    "BOT_ADMIN_CHAT_ID": "633678383"
   }
 }
