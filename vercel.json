@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook.ts": {
+      "maxDuration": 10,
+      "memory": 512
+    }
+  },
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram-bot-token"
+  }
+}
