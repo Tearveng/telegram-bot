@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "functions": {
+    "api/webhook.ts": {
+      "maxDuration": 30,
+      "memory": 512
+    }
+  },
   "builds": [
     {
       "src": "src/main.ts",
@@ -22,6 +28,7 @@
   ],
   "env": {
     "TELEGRAM_BOT_TOKEN": "8563137305:AAFDlk8IkALJZmlVzDnatT39C4fYitspiKA",
-    "BOT_ADMIN_CHAT_ID": "633678383"
+    "BOT_ADMIN_CHAT_ID": "633678383",
+    "NODE_ENV": "production"
   }
 }
