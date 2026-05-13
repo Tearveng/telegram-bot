@@ -6,7 +6,7 @@
     "ignoreDeprecations": "6.0",
     "types": ["mocha", "jest"],
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -24,6 +24,6 @@
       "@config/*": ["src/config/*"]
     }
   },
-  "include": ["src/api/**/*", "src/**/*"],
+  "include": ["api/**/*", "src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
