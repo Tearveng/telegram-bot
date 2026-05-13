@@ -14,8 +14,16 @@
     "noImplicitAny": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": ".",
+    // Add path aliases for cleaner imports
+    "paths": {
+      "@/*": ["src/*"],
+      "@handlers/*": ["src/presentation/handlers/*"],
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"]
+    }
   },
-  "include": ["api/**/*", "src/**/*"],
+  "include": ["src/api/**/*", "src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

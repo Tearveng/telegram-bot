@@ -18,7 +18,7 @@ let handlersLoaded = false;
 async function loadHandlers() {
   if (handlersLoaded) return;
   
-  const { startHandler } = await import('../src/presentation/handlers/startHandler');
+  const { startHandler } = await import('../presentation/handlers/startHandler');
   
   // Register commands
   bot.command('start', startHandler);
