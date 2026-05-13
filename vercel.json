@@ -6,13 +6,12 @@
   "functions": {
     "src/api/webhook.ts": {
       "maxDuration": 30,
-      "memory": 512,
-      "includeFiles": "src/**"
+      "memory": 512
     }
   },
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "src/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
