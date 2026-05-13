@@ -16,5 +16,6 @@
     "noUnusedParameters": true,
     "sourceMap": true
   },
-  "include": ["src/**/*", "test-youtube-download.js", "test-tiktok-download.js"]
+  "include": ["api/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
