@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "installCommand": "npm install --legacy-peer-deps",
   "functions": {
-    "api/webhook.ts": {
+    "src/api/webhook.ts": {
       "maxDuration": 30,
       "memory": 512,
       "includeFiles": "src/**"
