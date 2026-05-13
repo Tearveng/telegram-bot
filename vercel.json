@@ -18,6 +18,10 @@
   ],
   "routes": [
     {
+      "src": "/api/webhook",
+      "dest": "src/api/webhook.ts"
+    },
+    {
       "src": "/public/(.*)",
       "dest": "public/$1"
     },
